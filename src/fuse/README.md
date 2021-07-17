@@ -1572,12 +1572,62 @@ const pools = await lens.methods.getPoolOwnership(0xEFGH...);
 
 function safeLiquidate(address borrower, uint256 repayAmount, CErc20 cErc20, CToken cTokenCollateral, uint256 minOutputAmount, address exchangeSeizedTo) external
 
-### safeLiquidate()
+### safeLiquidate() (Erc20)
+
+```solidity
+  safeLiquidate(address borrower, uint256 repayAmount, CErc20 cErc20, CToken cTokenCollateral, uint256 minOutputAmount, address exchangeSeizedTo) 
+```
+
+- `borrower`: indebted account address
+- `repayAmount`: amount to repay unhealthy loan
+- `cErc20`: borrowed CERC20 to repay
+- `cTokenCollateral`: cToken collateral to be liquidated 
+- `minOutputAmount`: min amount of collateral to seize, reverts if not met  
+- `exchangeSeizedTo`: 
+- `RETURN`:
+
+#### Solidity
 
 ```solidity
 ```
 
-safeliqflash1 (ftoken)
+#### Web3 1.0
+```js
+```
+
+### safeLiquidate() (Eth)
+
+```solidity
+```
+
+#### Solidity
+
+```solidity
+```
+
+#### Web3 1.0
+
+```js
+```
+
+### safeLiquidateToTokensWithFlashLoan()
+
+```solidity
+  safeLiquidateToTokensWithFlashLoan(address borrower, uint256 repayAmount, CErc20 cErc20, CToken cTokenCollateral, uint256 minProfitAmount, address exchangeProfitTo)
+```
+
+#### Solidity 
+
+```solidity
+```
+
+#### Web3 1.0
+
+```js
+```
+
+
+- safeliqflash1 (ftoken)
 
 safeliqflash2 (eth)
 
