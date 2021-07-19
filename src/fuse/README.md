@@ -1195,7 +1195,7 @@ questions:
   <br></li><li>
   [13] <code>bool membership</code>: TODO: True if token is active in the pool
   <br></li><li>
-  [14] <code> uint256 <a href="https://docs.rari.capital/fuse/#exchange-rate" >exchangeRate</code></a>: Price of cTokens in terms of underlying tokens (a form of slippage) TODO: double check this is right!
+  [14] <code>uint256 <a href="https://docs.rari.capital/fuse/#exchange-rate" >exchangeRate</code></a>: Price of cTokens in terms of underlying tokens (a form of slippage) TODO: double check this is right!
   <br></li><li>
   [15] <code>uint256 underlyingPrice</code>: Price of underlying tokens denominated in ETH 
   <br></li><li>
